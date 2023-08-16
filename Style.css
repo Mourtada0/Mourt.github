@@ -1,0 +1,147 @@
+*{
+    font-family: 'Lobster', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.Front{
+    background-image: url("wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1440px;
+    display: block;
+    padding-bottom: 720px;
+    
+}
+.navi{
+    margin-top: 20px;
+}
+
+section nav{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+    border: solid;
+    border-width: 0;
+    border-radius: 5px;
+    height: 40px;
+
+    opacity: 1;
+
+}
+
+section nav ul{
+    border-radius: 20px;
+
+}
+
+section nav ul li{
+
+    display: inline;
+    list-style: none;
+
+    margin-top: 10px;
+
+    padding: 12px;
+
+}
+
+section nav ul li i {
+    margin: 5px;
+    font-size: 6vw;
+    color: black;
+    opacity: 1;
+}
+
+.TheHeader{
+
+    margin-top: 60px;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+header div h3{
+    margin-top: 20px;
+}
+
+main h1{
+    margin-bottom: 100px;
+    color: white;
+}
+
+main p{
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: white;
+}
+
+div img{
+    margin-bottom: 50px;
+    height: 80vw;
+    width: 80vw;
+    border-radius: 10px;
+}
+
+main div center h2{
+    margin-bottom: 20px;
+    color: white;
+}
+
+@media only screen and (min-width: 390px){
+    section nav{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 460px){
+    section nav ul li i{
+        font-size: 4vw;
+    }
+
+    section nav{
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+}
+
+@media only screen and (min-width: 758px){
+    section nav ul li i{
+        font-size: 2vw;
+    }
+    section nav{
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+
+    main div center h2{
+        font-size: 50px;
+        color: white;
+    }
+
+    main p{
+        margin-bottom: 200px;
+    }
+
+    div img{
+        height: 20vw;
+        width: 20vw;
+    }
+}
